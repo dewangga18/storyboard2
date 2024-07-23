@@ -16,6 +16,9 @@
 		84DB933D2C4FF5CA0055BBC6 /* tableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB933C2C4FF5CA0055BBC6 /* tableViewTests.swift */; };
 		84DB93472C4FF5CA0055BBC6 /* tableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB93462C4FF5CA0055BBC6 /* tableViewUITests.swift */; };
 		84DB93492C4FF5CA0055BBC6 /* tableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB93482C4FF5CA0055BBC6 /* tableViewUITestsLaunchTests.swift */; };
+		84DB93562C4FFBF60055BBC6 /* AcademyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB93552C4FFBF60055BBC6 /* AcademyModel.swift */; };
+		84DB93592C4FFF2E0055BBC6 /* AcademyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DB93582C4FFF2E0055BBC6 /* AcademyTableViewCell.xib */; };
+		84DB935A2C4FFF2E0055BBC6 /* AcademyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB93572C4FFF2E0055BBC6 /* AcademyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		84DB93422C4FF5CA0055BBC6 /* tableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DB93462C4FF5CA0055BBC6 /* tableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewUITests.swift; sourceTree = "<group>"; };
 		84DB93482C4FF5CA0055BBC6 /* tableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84DB93552C4FFBF60055BBC6 /* AcademyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyModel.swift; sourceTree = "<group>"; };
+		84DB93572C4FFF2E0055BBC6 /* AcademyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyTableViewCell.swift; sourceTree = "<group>"; };
+		84DB93582C4FFF2E0055BBC6 /* AcademyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcademyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				84DB932E2C4FF5C90055BBC6 /* Assets.xcassets */,
 				84DB93302C4FF5C90055BBC6 /* LaunchScreen.storyboard */,
 				84DB93332C4FF5C90055BBC6 /* Info.plist */,
+				84DB93552C4FFBF60055BBC6 /* AcademyModel.swift */,
+				84DB93572C4FFF2E0055BBC6 /* AcademyTableViewCell.swift */,
+				84DB93582C4FFF2E0055BBC6 /* AcademyTableViewCell.xib */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DB93592C4FFF2E0055BBC6 /* AcademyTableViewCell.xib in Resources */,
 				84DB932F2C4FF5C90055BBC6 /* Assets.xcassets in Resources */,
 				84DB93322C4FF5C90055BBC6 /* Base in Resources */,
 				84DB932D2C4FF5C80055BBC6 /* Base in Resources */,
@@ -260,7 +270,9 @@
 			files = (
 				84DB932A2C4FF5C80055BBC6 /* ViewController.swift in Sources */,
 				84DB93262C4FF5C80055BBC6 /* AppDelegate.swift in Sources */,
+				84DB93562C4FFBF60055BBC6 /* AcademyModel.swift in Sources */,
 				84DB93282C4FF5C80055BBC6 /* SceneDelegate.swift in Sources */,
+				84DB935A2C4FFF2E0055BBC6 /* AcademyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
