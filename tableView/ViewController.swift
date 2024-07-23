@@ -14,12 +14,33 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         myTableView.dataSource = self
+        myTableView.delegate = self
         
         myTableView.register(
           UINib(nibName: "AcademyTableViewCell", bundle: nil),
           forCellReuseIdentifier: "HeroCell"
         )
     }
+}
+
+extension ViewController: UITableViewDelegate {
+    func tableView(
+    _ tableView: UITableView,
+    didSelectRowAt indexPath: IndexPath
+  ) {
+    performSegue(withIdentifier: "moveToDetail", sender: dummyAcademyData[indexPath.row])
+  }
+    
+  override func prepare(
+    for segue: UIStoryboardSegue,
+    sender: Any?
+  ) {
+    if segue.identifier == "moveToDetail" {
+      if let detaiViewController = segue.destination as? DetailViewController {
+        detaiViewController.academy = sender as? AcademyModel
+      }
+    }
+  }
 }
 
 

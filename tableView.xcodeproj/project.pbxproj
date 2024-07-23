@@ -19,6 +19,7 @@
 		84DB93562C4FFBF60055BBC6 /* AcademyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB93552C4FFBF60055BBC6 /* AcademyModel.swift */; };
 		84DB93592C4FFF2E0055BBC6 /* AcademyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DB93582C4FFF2E0055BBC6 /* AcademyTableViewCell.xib */; };
 		84DB935A2C4FFF2E0055BBC6 /* AcademyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB93572C4FFF2E0055BBC6 /* AcademyTableViewCell.swift */; };
+		84DB935C2C5014930055BBC6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB935B2C5014930055BBC6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		84DB93552C4FFBF60055BBC6 /* AcademyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyModel.swift; sourceTree = "<group>"; };
 		84DB93572C4FFF2E0055BBC6 /* AcademyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyTableViewCell.swift; sourceTree = "<group>"; };
 		84DB93582C4FFF2E0055BBC6 /* AcademyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcademyTableViewCell.xib; sourceTree = "<group>"; };
+		84DB935B2C5014930055BBC6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				84DB93552C4FFBF60055BBC6 /* AcademyModel.swift */,
 				84DB93572C4FFF2E0055BBC6 /* AcademyTableViewCell.swift */,
 				84DB93582C4FFF2E0055BBC6 /* AcademyTableViewCell.xib */,
+				84DB935B2C5014930055BBC6 /* DetailViewController.swift */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				84DB932A2C4FF5C80055BBC6 /* ViewController.swift in Sources */,
 				84DB93262C4FF5C80055BBC6 /* AppDelegate.swift in Sources */,
 				84DB93562C4FFBF60055BBC6 /* AcademyModel.swift in Sources */,
+				84DB935C2C5014930055BBC6 /* DetailViewController.swift in Sources */,
 				84DB93282C4FF5C80055BBC6 /* SceneDelegate.swift in Sources */,
 				84DB935A2C4FFF2E0055BBC6 /* AcademyTableViewCell.swift in Sources */,
 			);
