@@ -21,6 +21,13 @@ class ViewController: UIViewController {
           forCellReuseIdentifier: "HeroCell"
         )
     }
+    
+    @IBAction func goToWebsite(_ sender: Any) {
+        let urlWeb = "https://developer.apple.com/"
+          if let url = URL(string: urlWeb), UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url)
+          }
+    }
 }
 
 extension ViewController: UITableViewDelegate {
